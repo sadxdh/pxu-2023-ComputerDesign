@@ -105,4 +105,4 @@ Python基础，python分析（pandas，numpy），可视化（matplotlib），�
 
 [吴孟达_coursera_machine-learning_无字幕无翻译](https://www.coursera.org/learn/machine-learning)
 
-[吴孟达bilibili_machine-learning中英字幕](https://www.bilibili.com/video/BV164411b7dx/)
+[吴孟达bilibili_machine-learning中英字幕](https://www.bilibili.com/video/BV1Pa411X76s)
