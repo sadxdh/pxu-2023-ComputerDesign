@@ -1,5 +1,5 @@
 from data_collection import getFromTushare
-from analytics import Resampling
+from analytics import Resampling,Kline
 import requests
 
 
@@ -23,3 +23,5 @@ if __name__ == '__main__':
     stock_name = getName(code, exchange)
     getFromTushare.GetData(code, start_time, exchange, stock_name)
     Resampling.Resampling(stock_name)
+    Kline.Kline(stock_name)
+

@@ -21,7 +21,9 @@ class GetData:
             print(self.ori_data)
 
     def save(self):
-        self.ori_data = pd.DataFrame(ts.get_k_data(self.code, start=self.start))
+        self.ori_data = ts.get_k_data(self.code, start=self.start)
+        self.ori_data.index = pd.to_datetime(self.ori_data.date)
+        self.ori_data = self.ori_data.sort_index()
         print(self.ori_data)
         self.ori_data.to_csv(f"data\\{self.stocks_name}.csv", index=False, encoding='utf8')
 
