@@ -31,6 +31,7 @@ class Kline:
         self.df_ma = pd.DataFrame(self.df.close)
         for i in range(len(types)):
             self.df_ma[types[i]] = ta.MA(self.df.close, timeperiod=5, matype=i)
+        print('上证指数各种类型移动平均线（近200个工作日）')
         print(self.df_ma.tail())
 
     def draw(self):
@@ -46,5 +47,5 @@ class Kline:
 
 
 if __name__ == '__main__':
-    filename = '浦发银行2005-05-05'
+    filename = '海康威视2010-05-05'
     Kline(filename)

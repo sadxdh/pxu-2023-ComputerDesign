@@ -1,6 +1,7 @@
 import os
 import tushare as ts
 import pandas as pd
+import matplotlib.pyplot as plt
 
 
 class GetData:
@@ -18,7 +19,8 @@ class GetData:
         else:
             print("已获取到本地数据")
             self.ori_data = pd.read_csv(f"data\\{self.stocks_name}.csv")
-            print(self.ori_data)
+            print("数据正在读取", self.ori_data)
+        self.draw()
 
     def save(self):
         self.ori_data = ts.get_k_data(self.code, start=self.start)
@@ -26,6 +28,11 @@ class GetData:
         self.ori_data = self.ori_data.sort_index()
         print(self.ori_data)
         self.ori_data.to_csv(f"data\\{self.stocks_name}.csv", index=False, encoding='utf8')
+
+    def draw(self):
+        self.ori_data['close'].plot()
+        plt.title("original data")
+        plt.show()
 
     def delData(self):
         if not os.path.exists(f"data\\{self.stocks_name}.csv"):
@@ -38,8 +45,8 @@ class GetData:
 
 
 if __name__ == '__main__':
-    code = '600000'
+    code = '002415'
     start_time = '2005-05-05'
-    exchange = 'sh'
-    stock_name = "浦发银行2005-05-05"
+    exchange = 'sz'
+    stock_name = "海康威视2010-05-05"
     GetData(code, start_time, exchange, stock_name)

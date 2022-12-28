@@ -17,11 +17,13 @@ def getName(code, exchange):
 
 
 if __name__ == '__main__':
-    code = '600000'
-    start_time = '2005-05-05'
-    exchange = 'sh'
+    code = '002415'
+    start_time = '2010-05-05'
+    exchange = 'sz'
     stock_name = getName(code, exchange)
     getFromTushare.GetData(code, start_time, exchange, stock_name)
-    Resampling.Resampling(stock_name)
+    data = Resampling.Resampling(stock_name)
     Kline.Kline(stock_name)
+    stock_train = data.stock_train
+    stock_test = data.stock_test
 
