@@ -1,5 +1,5 @@
 from data_collection import getFromTushare
-from analytics import Resampling,Kline
+from analytics import Resampling, Kline
 import requests
 
 
