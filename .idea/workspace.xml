@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ced0bb8-aa2c-4e18-b251-cfdd73df26fc" name="变更" comment="线性回归预测">
-      <change afterPath="$PROJECT_DIR$/analytics/PeakDetection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analytics/toxlsx.py" afterDir="false" />
+    <list default="true" id="2ced0bb8-aa2c-4e18-b251-cfdd73df26fc" name="变更" comment="峰值检测">
+      <change afterPath="$PROJECT_DIR$/data_collection/海康威视研究报告.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pxu-2023-ComputerDesign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pxu-2023-ComputerDesign.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lunch.py" beforeDir="false" afterPath="$PROJECT_DIR$/lunch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/PeakDetection.py" beforeDir="false" afterPath="$PROJECT_DIR$/analytics/PeakDetection.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="2JAZnTq0Ef1zV26YZTsIUxbq1HZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,11 +59,55 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../爬虫" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Python.PeakDetection">
+  <component name="RunManager" selected="Python.海康威视研究报告">
+    <configuration name="海康威视研究报告" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="pxu-2023-ComputerDesign" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_collection/海康威视研究报告.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PeakDetection (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pxu-2023-ComputerDesign" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Administrator\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/analytics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analytics/PeakDetection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="PeakDetection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pxu-2023-ComputerDesign" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,28 +152,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="getFromTushare" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pxu-2023-ComputerDesign" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_collection" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_collection/getFromTushare.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="linear" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pxu-2023-ComputerDesign" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,28 +168,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_train/linear.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="lunch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pxu-2023-ComputerDesign" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lunch.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -189,19 +197,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.getFromTushare" />
       <item itemvalue="Python.linear" />
-      <item itemvalue="Python.lunch" />
       <item itemvalue="Python.toxlsx" />
       <item itemvalue="Python.PeakDetection" />
+      <item itemvalue="Python.PeakDetection (1)" />
+      <item itemvalue="Python.海康威视研究报告" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.海康威视研究报告" />
+        <item itemvalue="Python.PeakDetection (1)" />
         <item itemvalue="Python.PeakDetection" />
         <item itemvalue="Python.toxlsx" />
         <item itemvalue="Python.linear" />
-        <item itemvalue="Python.lunch" />
-        <item itemvalue="Python.getFromTushare" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +238,14 @@
       <workItem from="1672993307540" duration="638000" />
       <workItem from="1673008911671" duration="92000" />
       <workItem from="1673070192366" duration="1565000" />
-      <workItem from="1673074966103" duration="1999000" />
+      <workItem from="1673074966103" duration="2199000" />
+      <workItem from="1673077483417" duration="27000" />
+      <workItem from="1673156676134" duration="69000" />
+      <workItem from="1673233291643" duration="1660000" />
+      <workItem from="1673256064119" duration="613000" />
+      <workItem from="1674648596256" duration="2389000" />
+      <workItem from="1674699205901" duration="417000" />
+      <workItem from="1674699648106" duration="10213000" />
     </task>
     <task id="LOCAL-00001" summary="均值">
       <created>1671532118961</created>
@@ -274,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672883960817</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="峰值检测">
+      <created>1673077043980</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673077043980</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,10 +317,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="均值" />
     <MESSAGE value="线性回归预测" />
-    <option name="LAST_COMMIT_MESSAGE" value="线性回归预测" />
+    <MESSAGE value="峰值检测" />
+    <option name="LAST_COMMIT_MESSAGE" value="峰值检测" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pxu_2023_ComputerDesign$.coverage" NAME="海康威视研究报告 覆盖结果" MODIFIED="1674714493888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pxu_2023_ComputerDesign$getFromTushare.coverage" NAME="getFromTushare 覆盖结果" MODIFIED="1672197940080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_collection" />
+    <SUITE FILE_PATH="coverage/pxu_2023_ComputerDesign$PeakDetection__1_.coverage" NAME="PeakDetection (1) 覆盖结果" MODIFIED="1673235026209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/analytics" />
     <SUITE FILE_PATH="coverage/pxu_2023_ComputerDesign$peaktest.coverage" NAME="peaktest 覆盖结果" MODIFIED="1673076891422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/analytics" />
     <SUITE FILE_PATH="coverage/pxu_2023_ComputerDesign$toxlsx.coverage" NAME="toxlsx 覆盖结果" MODIFIED="1673070564776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/analytics" />
     <SUITE FILE_PATH="coverage/pxu_2023_ComputerDesign$lunch.coverage" NAME="lunch 覆盖结果" MODIFIED="1672230058061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
